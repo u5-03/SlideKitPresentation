@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "slidekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mtj0928/SlideKit",
+      "state" : {
+        "revision" : "b59a49d95229b6168ac43492a319fa3f9631555b",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "splash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JohnSundell/Splash",
+      "state" : {
+        "revision" : "7f4df436eb78fe64fe2c32c58006e9949fa28ad8",
+        "version" : "0.16.0"
+      }
+    }
+  ],
+  "version" : 2
+}
