@@ -11,7 +11,7 @@ import SwiftUI
 struct SuggestionSlide: Slide {
 
     enum SlidePhasedState: Int, PhasedState {
-        case initial, double, third
+        case initial, second, third
     }
 
     @Phase var phasedStateStore
@@ -19,7 +19,7 @@ struct SuggestionSlide: Slide {
     var body: some View {
         HeaderSlide("By the way...") {
             Item("Notice something about this slide?")
-            if phasedStateStore.after(.double) {
+            if phasedStateStore.after(.second) {
                 Item {
                     Label("This slide is created by Swift", image: "")
                         .font(.system(size: 50, weight: .bold))
@@ -30,6 +30,11 @@ struct SuggestionSlide: Slide {
                     Item {
                         Link(destination: URL(string: "https://github.com/mtj0928/SlideKit")!) {
                             Text("mtj0928/SlideKit")
+                        }
+                    }
+                    Item {
+                        Link(destination: URL(string: "https://www.youtube.com/watch?v=TeXs08GvPGo?t=3010")!) {
+                            Text("After iOSDC Japan 2022's movie")
                         }
                     }
                 }

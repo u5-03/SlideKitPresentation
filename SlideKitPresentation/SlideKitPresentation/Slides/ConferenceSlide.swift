@@ -11,8 +11,8 @@ import SwiftUI
 struct ConferenceSlide: Slide {
     var body: some View {
         HeaderSlide("Best Effort in 2022") {
-            Item("iOSDC2022") {
-                Item("One of the biggest conference of iOS community")
+            Item("iOSDC2022 in 9/10~9/12") {
+                Item("One of the biggest conference of iOS community in Japan")
                 Item("I participated as a speaker and staff") {
                     HStack(alignment: .center) {
                         Image("iosdc")

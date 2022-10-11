@@ -11,6 +11,7 @@
 		6819B02B28F258EC002021EC /* ReadMeSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6819B02A28F258EC002021EC /* ReadMeSlide.swift */; };
 		68B8BDEA28F2982A007039D4 /* SlideKitDemoSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8BDE928F2982A007039D4 /* SlideKitDemoSlide.swift */; };
 		68B8BDEC28F326AE007039D4 /* GitHubSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8BDEB28F326AE007039D4 /* GitHubSlide.swift */; };
+		68B8BDEE28F33853007039D4 /* EndSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B8BDED28F33853007039D4 /* EndSlide.swift */; };
 		68F86ED028F268C2008D24BB /* HobbySlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F86ECF28F268C2008D24BB /* HobbySlide.swift */; };
 		68F86ED228F26BAA008D24BB /* StaffIdentityCardSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F86ED128F26BAA008D24BB /* StaffIdentityCardSlide.swift */; };
 		68F86ED628F26EC2008D24BB /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F86ED328F26C01008D24BB /* Asset.xcassets */; };
@@ -27,6 +28,7 @@
 		6819B02A28F258EC002021EC /* ReadMeSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMeSlide.swift; sourceTree = "<group>"; };
 		68B8BDE928F2982A007039D4 /* SlideKitDemoSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideKitDemoSlide.swift; sourceTree = "<group>"; };
 		68B8BDEB28F326AE007039D4 /* GitHubSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubSlide.swift; sourceTree = "<group>"; };
+		68B8BDED28F33853007039D4 /* EndSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndSlide.swift; sourceTree = "<group>"; };
 		68F86ECF28F268C2008D24BB /* HobbySlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbySlide.swift; sourceTree = "<group>"; };
 		68F86ED128F26BAA008D24BB /* StaffIdentityCardSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffIdentityCardSlide.swift; sourceTree = "<group>"; };
 		68F86ED328F26C01008D24BB /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				68F86ED928F28DDB008D24BB /* SuggestionSlide.swift */,
 				68B8BDE928F2982A007039D4 /* SlideKitDemoSlide.swift */,
 				68B8BDEB28F326AE007039D4 /* GitHubSlide.swift */,
+				68B8BDED28F33853007039D4 /* EndSlide.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				68F86EDA28F28DDB008D24BB /* SuggestionSlide.swift in Sources */,
 				E61709DD154B2CB8836E7C98 /* TitleSlide.swift in Sources */,
 				68B8BDEC28F326AE007039D4 /* GitHubSlide.swift in Sources */,
+				68B8BDEE28F33853007039D4 /* EndSlide.swift in Sources */,
 				68F86ED828F289C1008D24BB /* ConferenceSlide.swift in Sources */,
 				6819B02B28F258EC002021EC /* ReadMeSlide.swift in Sources */,
 				AD42328FA81BD9F500CC6A38 /* SceneDelegate.swift in Sources */,

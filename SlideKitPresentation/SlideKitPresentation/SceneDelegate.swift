@@ -27,6 +27,7 @@ final class SceneDelegate: NSObject, SlideWindowSceneDelegate {
         SuggestionSlide()
         SlideKitDemoSlide()
         GitHubSlide()
+        EndSlide()
     }
 
     var window: UIWindow?

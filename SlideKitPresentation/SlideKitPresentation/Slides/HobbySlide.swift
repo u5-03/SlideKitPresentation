@@ -12,10 +12,10 @@ struct HobbySlide: Slide {
     var body: some View {
         VStack {
             HeaderSlide("What I like") {
-                Item("Eat something delicious, Cooking")
-                Item("Watch animation / Read comics(ONEPIECE, 銀魂)")
+                Item("Eat something delicious especially Japanese food, Cooking")
+                Item("Watch animation / Read comics(ONEPIECE, Gintama, Attack on Titan, SLAM DUNK)")
                 Item("Tennis, Cycling, Fishing")
-                Item("Gadget collection, IoT device, Apple")
+                Item("Gadget collection, IoT device, Apple device")
             }
             HeaderSlide("What I don't like / am not good at") {
                 Item("Spicy food, Insect, Tabacco")
